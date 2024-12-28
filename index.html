@@ -3,9 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
+    <title>Login</title>
+    <link href="./style/navabr.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>project start</h1>
+    <!-- nav -->
+    <div id="nav"></div>
+    <!-- main -->
+    <div id="formdiv">
+      <form id="form">
+        <input id="email" type="email" placeholder="Enter Email" />
+        <input id="password" type="text" placeholder="Enter password" />
+        <input id="submit" type="submit" value="Admin Login" />
+        <input id="submit" type="submit" value="User Login" />
+      </form>
+    </div>
   </body>
+  <script src="./Script/login.js" type="module"></script>
+  <script src="./Script/navbar.js"></script>
+  <script src="./Script/baseUrl.js" type="module"></script>
 </html>
