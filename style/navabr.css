@@ -28,3 +28,7 @@ input {
   margin: 10px;
   padding: 10px;
 }
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
