@@ -6,7 +6,7 @@ window.onload = () => {
     alert(`Welcome`);
   } else {
     alert("Admin not logged in");
-    window.location.href = "/index.html";
+    window.location.href = "/DomBookApp/index.html";
   }
 };
 // form

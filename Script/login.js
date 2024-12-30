@@ -44,7 +44,7 @@ form.addEventListener("submit", function (event) {
         if (user[0].password == password) {
           alert("Logged in as user ");
           localStorage.setItem("loginData", JSON.stringify(user[0]));
-          window.location.href = "/books.html";
+          window.location.href = "/DomBookApp/books.html";
         } else {
           alert("password incorrect");
         }
