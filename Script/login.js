@@ -16,7 +16,7 @@ form.addEventListener("submit", function (event) {
         if (user[0].password == password) {
           alert("Logged in as admin ");
           localStorage.setItem("loginData", JSON.stringify(user[0]));
-          window.location.href = "/admin.html";
+          window.location.href = "/DomBookApp/admin.html";
         } else {
           alert("password incorrect");
         }
